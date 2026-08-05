@@ -79,5 +79,5 @@ Two AWS solution architectures are provided as PNG diagrams (see `architecture/`
 ### Part 2
 
 - **Data volumes will grow beyond current file sizes.** Current files are under 30MB, but the design targets the >100MB requirement stated in the brief.
-- **Analysts reach Tableau over a private network** The brief doesn't say how users reach Tableau Server, so I assumed it stays private.
+- **Analysts reach Tableau over a private network.** The brief doesn't say how users reach Tableau Server, so I assumed it stays private.
 - **HDB's platform runs in a single VPC**, with separate subnets for ingestion and analytics.
